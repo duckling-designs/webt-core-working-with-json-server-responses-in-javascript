@@ -6,11 +6,19 @@
     <link rel="stylesheet" href="scss/custom.css">
 </head>
 <body>
-<div class="flex-column text-center m-5">
-    <h2>Let's fetch a Wedding location</h2>
-    <button type="button" id="getWeddingLocations">Glückliche Wahl</button>
+<div class="my-box">
+    <div class="my-box-top">
+        <div class="my-box-small">
+            <h2 class="my-heading"> Let's fetch a Wedding location</h2>
+            <button type="button" class="my-button" id="getWeddingLocations">Glückliche Wahl <img alt="wedding rings" src="./src/wedding_rings.svg" class="rings"/> </button> <br>
+        </div>
+        <div class="my-box-small2">
+            <img alt="wedding picture" src="./src/wedding_big.svg" class="my-pic"/>
+        </div>
+    </div>
     <div id="weddingLocation"></div>
 </div>
+
 <script type="module" src="main.js"></script>
 </body>
 </html>

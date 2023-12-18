@@ -11855,5 +11855,50 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.my-heading {
+  font-family: Garamond, serif;
+  font-size: 55px;
+  padding: 5px;
+}
+
+.my-button {
+  font-family: Garamond, serif;
+  font-size: 25px;
+  margin-left: 10px;
+  padding: 4px;
+  border-width: thin;
+  border-radius: 2px;
+  align-content: center;
+}
+
+button:hover.my-button {
+  background-color: #DCE2FF;
+}
+
+.my-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.my-box-top {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.my-box-small .my-box-small2 {
+  margin: 10px;
+}
+
+.my-pic {
+  width: 250px;
+}
+
+.rings {
+  width: 30px;
+}
 
 /*# sourceMappingURL=custom.css.map */
